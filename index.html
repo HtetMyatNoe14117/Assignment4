@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+
+             margin: 400px;
+            
+            /*display: flex;*/
+        }
+
+        h2 {
+          
+            text-align: center;
+           
+        }
+
+        .frame {
+            margin-top: 1px;
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+
+        }
+
+        .card {
+            width: 250px;
+            margin: 15px;
+
+            border: 1px solid red;
+            text-align: center;
+
+
+        }
+        .upper{
+            display: flex;
+        }
+        .container {
+            img {
+
+                width: 250px;
+                height: 260px;
+            }
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            background: pink;
+        }
+
+        button {
+
+            background-color: red;
+            border: none;
+            margin-bottom: 20px;
+            
+        }
+
+        .center {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    
+        <h2>Flexbox Blog-Card</h2>
+    <div class="upper">
+    <div class="frame">
+        <div class="card">
+            <div class="container">
+                <img src="./newyork.jpg" alt="newyork">
+                <div class="center">
+                    <h2>NewYork</h2>
+                </div>
+            </div>
+            <div class="date">
+                <p>&#128198;Aug 4 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-heart"></i>102</p>
+            </div>
+            <div class="text">
+
+                <p>Lorem ipsum dolor sit amet , consectectoor adlipsing elit.si sequverbum iognid longious quam
+                    praepositum bonum</p>
+
+            </div>
+            
+                <button>Read more</button>
+            
+        </div>
+    </div>
+    <div class="frame">
+        <div class="card">
+            <div class="container">
+                <img src="./sanfrancisco.jpg" alt="sanfrancisco">
+                <div class="center">
+                    <h2>sanfrancisco</h2>
+                </div>
+            </div>
+            <div class="date">
+                <p>&#128198;Aug 4 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-heart"></i>102</p>
+            </div>
+            <div class="text">
+
+                <p>Lorem ipsum dolor sit amet , consectectoor adlipsing elit.si sequverbum iognid longious quam
+                    praepositum bonum</p>
+
+            </div>
+            
+                <button>Read more</button>
+            
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
